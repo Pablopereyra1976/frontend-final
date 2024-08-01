@@ -4,6 +4,7 @@ import { ChatScreem } from "./Screems/ChatScreem/ChatScreem";
 import { ContactoScreem } from "./Screems/ContactoScreem/ContactoScreem";
 import { ChatContactosScreem } from "./Screems/ChatContactoScreem/ChatContactosScreem";
 import { InfoContacto } from "./Components/InfoContactos/InfoContacto";
+import "./App.css";
 
 function App() {
   return (

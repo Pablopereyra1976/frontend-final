@@ -1,6 +1,13 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: sans-serif;
+}
 .contacto-screen{
    width: 100vw;
+   margin-left: -12px;
 background-image: url("../../Imagenes/fondo2.jpg");
-  
+
    
 }
