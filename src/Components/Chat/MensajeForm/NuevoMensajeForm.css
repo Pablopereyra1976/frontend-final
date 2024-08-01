@@ -1,0 +1,35 @@
+.input-container {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+   
+  }
+  
+  .input-container input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    border: 3px solid #ccc;
+    border-radius: 20px;
+    margin-right: 10px;
+  }
+  .enviar{
+    
+  }
+  
+  .input-container button {
+    flex: 1;
+    background-color: #116d33; 
+    border: none;
+    color: white;
+  
+    font-size: 15px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  
+  @media(max-width: 380px){
+    .input-container button{
+      display: block;
+    }
+  }

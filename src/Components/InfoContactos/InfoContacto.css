@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.info-contacto-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+
+
+
+    background-color: rgb(184, 221, 223);
+}
+
+.info-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 220px;
+    background-color: rgb(43, 144, 148);
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.imagenperfilinfo {
+    display: flex;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.info-nombreapellido {
+    display: flex;
+    flex-direction: row;
+    height: 70px;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    background-color: rgb(45, 111, 114);
+    border-radius: 10px;
+    width: 100%;
+    color: white;
+}
+.info-nombreapellido h1{
+    margin: 5px 5px;
+}
+
+.info-detalles {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 250px;
+    background-color: rgb(117, 190, 192);
+    font-size: 30px;
+    border-radius: 10px;
+    padding-left: 7px;
+    padding-right: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+.volver{
+    width: 140px;
+    height: 40px;
+    font-size: 30px;
+    background-color: cadetblue;
+    color: white;
+    border-radius: 25px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}

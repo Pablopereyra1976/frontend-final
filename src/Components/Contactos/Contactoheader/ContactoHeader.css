@@ -1,0 +1,103 @@
+/*
+
+#root {
+  margin: 0;
+  padding: 0;
+}
+
+.contacto-header {
+  display: flex;
+  align-items: start;
+  width: 320px;
+  height: 94px;
+  background-color: rgb(9, 29, 29);
+}
+
+.title {
+  display: flex;
+  padding-left: 5px;
+  padding-top: 5px;
+  font-size: 18px;
+
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.contacto-header {
+  font-size: 13px;
+}
+
+.camara {
+  display: none;
+}
+
+.contacto-icon {
+  display: none;
+
+}
+
+.contacto-btn {
+  display: flex;
+  width: 320px;
+  height: 23px;
+  border-radius: 25px;
+
+  font-size: 14px;
+}
+
+.icon-glass {
+  padding-left: 10px;
+  width: 50px;
+  height: 17px;
+}*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.contact-header {
+  
+  display: flex;
+  background-color: #252323;
+  color: white;
+  font-weight: 300;
+  padding: 10px;
+  justify-content: space-between;
+  height: 70px;
+  border-radius: 25px;
+}
+
+.logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding-top: 6px;
+  padding-left: 30px;
+  height: 30px;
+  
+}
+
+.contact-header .iconos {
+  display: none;
+  align-items: center;
+  font-size: 30px;
+  gap: 4px;
+}
+
+.contact-header .logo {
+  font-weight: bold;
+  font-size: 35px;
+}
+
+
+@media (min-width: 580px) {
+  .contact-header .iconos {
+    display: flex;
+    align-items: center;
+   
+    gap: 8px;
+    margin-right: 50px;
+  }
+}

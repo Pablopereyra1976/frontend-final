@@ -1,0 +1,183 @@
+
+
+
+
+
+[
+  {
+    "id": 1,
+    "nombre": "Pedro",
+    "apellido": "Perez",
+    "ultima_conexion": "ayer",
+    "numero": "222-222-2222",
+    "image": "carita1",
+    "email": "pedroperez@gmail.com",
+    "direccion": "Calle falsa 123",
+    "mensajes": [
+      {
+        "autor": "yo",
+        "texto": "Hola, ¿cómo estas?",
+        "estado": "visto",
+        "dia": "hoy",
+        "hora": "13:16",
+        "id": "1"
+      },
+      {
+        "autor": "Pedro",
+        "texto": "Hola, todo bien ¿vos?",
+        "estado": "visto",
+        "dia": "hoy",
+        "hora": "13:26",
+        "id": "2"
+      },
+      {
+        "autor": "yo",
+        "texto": "aca estamos, rompiendome la cabeza con react",
+        "estado": "visto",
+        "dia": "hoy",
+        "hora": "13:16",
+        "id": "3"
+      },
+      {
+        "autor": "Pedro",
+        "texto": "metele ganas, estas en buen camino",
+        "estado": "entregado",
+        "dia": "hoy",
+        "hora": "13:16",
+        "id": "4"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "nombre": "Felipe",
+    "apellido": "Pereyra",
+    "ultima_conexion": "Miercoles", 
+    "numero": "333-333-3333",
+    "image": "carita2",
+    "email": "felipepereyra@gmail.com",
+    "direccion": "Calle verdadera 123",
+    "mensajes": [
+      {
+        "autor": "yo",
+        "texto": "Hola Feli....",
+        "estado": "visto",
+        "dia": "hoy",
+        "hora": "13:16",
+        "id": "1"
+      },
+      {
+        "autor": "Felipe",
+        "texto": "Hola Papa...",
+        "estado": "visto",
+        "dia": "hoy",
+        "hora": "13:26",
+        "id": "2"
+      },
+      {
+        "autor": "yo",
+        "texto": "Hiciste tarea hoy? ",
+        "estado": "visto",
+        "dia": "hoy",
+        "hora": "13:16",
+        "id": "3"
+      },
+      {
+        "autor": "Felipe",
+        "texto": "uhhhhhh, me olvide papa...",
+        "estado": "entregado",
+        "dia": "hoy",
+        "hora": "13:16",
+        "id": "4"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "nombre": "Maria",
+    "apellido": "Lopez",
+    "ultima_conexion": "hoy",
+    "numero": "444-444-4444",
+    "image": "carita3",
+    "email": "marialopez@gmail.com",
+    "direccion": "Calle seraonosera 123",
+    "mensajes": [
+      {
+        "autor": "yo",
+        "texto": "Buenas tardes, me podes dar de baja el servicio?",
+        "estado": "visto",
+        "dia": "hoy",
+        "hora": "13:16",
+        "id": "1"
+      },
+      {
+        "autor": "Maria",
+        "texto": "Buenas tardes, por que motivo?",
+        "estado": "visto",
+        "dia": "hoy",
+        "hora": "13:26",
+        "id": "2"
+      },
+      {
+        "autor": "yo",
+        "texto": "No lo puedo pagar mas!!!! es carisimo....",
+        "estado": "visto",
+        "dia": "hoy",
+        "hora": "13:16",
+        "id": "3"
+      },
+      {
+        "autor": "Maria",
+        "texto": "tengo una promocion para ofrecerle",
+        "estado": "entregado",
+        "dia": "hoy",
+        "hora": "13:16",
+        "id": "4"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "nombre": "Pablo",
+    "apellido": "Gonzalez",
+    "ultima_conexion": "ayer",
+    "numero": "555-555-5555",
+    "image": "carita4",
+    "email": "pablogonzalez@gmail.com",
+    "direccion": "Calle siempreviva 123",
+    "mensajes": [
+      {
+        "autor": "yo",
+        "texto": "Buenas noches, quiero hacerte un pedido de pizza",
+        "estado": "visto",
+        "dia": "hoy",
+        "hora": "13:16",
+        "id": "1"
+      },
+      {
+        "autor": "Pablo",
+        "texto": "Que haces capoooo, daleeeee",
+        "estado": "visto",
+        "dia": "hoy",
+        "hora": "13:26",
+        "id": "2"
+      },
+      {
+        "autor": "yo",
+        "texto": "Una fugazzeta rellena, cuanto sale? ",
+        "estado": "visto",
+        "dia": "hoy",
+        "hora": "13:16",
+        "id": "3"
+      },
+      {
+        "autor": "Pablo",
+        "texto": "Perfecto, son 5000 pesos, en media hora esta por ahi....",
+        "estado": "entregado",
+        "dia": "hoy",
+        "hora": "13:16",
+        "id": "4"
+      }
+    ]
+  }
+]

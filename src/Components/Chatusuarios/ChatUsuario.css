@@ -1,0 +1,105 @@
+.header {
+  width: 100%;
+  height: 120px;
+  background-color: #4f5358;
+  justify-content: space-between;
+  border: solid 3px rgba(77, 6, 6, 0.733);
+  border-radius: 35px;
+  display: flex;
+  
+}
+.imagenperfil {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-right: 20px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+}
+.nombreperfil {
+  font-weight: 500;
+  font-size: 45px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+margin-right: 1000px;
+  padding-top: 55px;
+
+  color: white;
+}
+
+
+
+.mensaje-container {
+  display: flex;
+  width: 100%;
+  height: 520px;
+  flex-direction: column;
+  overflow: scroll;
+  background-image: url(../../Imagenes/fondo.jpg);
+}
+
+.mensaje {
+  display: flex;
+
+  width: 80%;
+  height: 70px;
+  background-color: #3e444b;
+  border: solid 2px #1c1d1b;
+  border-radius: 10px;
+}
+
+.mensaje.yo {
+  background-color: #75a148;
+  border: solid 2px #393b36;
+  text-align: right;
+  padding-bottom: 9px;
+
+  width: 80%;
+  color: white;
+}
+.mensaje.yo strong {
+  font-size: 20px;
+}
+p.mensaje-texto {
+  text-align: left;
+}
+
+.mensaje-texto {
+  color: white;
+  padding-top: 15px;
+  font-size: 20px;
+}
+
+.mensaje-info {
+  display: flex;
+  padding-left: 20px;
+  font-size: 18px;
+  
+}
+img.estado {
+  font-weight: 500;
+  width: 18px;
+}
+
+@media (max-width: 1399px) {
+  .button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    margin-right: 180px;
+     margin-bottom: 15px;
+  }
+}
+@media(max-width: 580px){
+.mensaje{
+  height: auto;
+}
+.mensaje.yo{
+  height: auto;
+}
+
+
+
+
+}

@@ -1,0 +1,35 @@
+.chat-header {
+    display: flex;
+   
+    align-items: center;
+    background-color: #2e6861;
+    border: solid 3px rgba(77, 6, 6, 0.733);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    
+}
+.chat-header img {
+    border-radius: 50%;
+    width: 40px;
+    margin-right: 20px;
+}
+.chat-header .contact-info {
+    display: flex;
+    flex-direction: column;
+}
+.chat-header .contact-info .contact-name {
+    font-weight: bold;
+    font-size: 16px;
+    
+}
+.chat-header .contact-info .contact-status {
+    font-size: 12px;
+    color: #e5ddd5;
+}
+.container-icon {
+    display: flex;
+    
+   
+}
+

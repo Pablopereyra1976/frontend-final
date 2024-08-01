@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+body{
+  margin: 15px;
+  overflow: hidden;
+}
+
+.link{
+  text-decoration: none;
+}
+
+.container {
+  width: 100vw;
+  height: 490px;
+padding-left: 10px;
+padding-right: 20px;
+  gap: 25px;
+}
+.contacto-container {
+  display: flex;
+
+  justify-content: space-between;
+background-color: #252323;
+  height: 90px;
+margin-top: 15px;
+  border: solid 3px rgba(77, 6, 6, 0.733);
+  border-radius: 35px;
+  
+}
+
+.contacto-container img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(139, 19, 89);
+  width: 60px;
+  height: 60px;
+ margin-top: 12px;
+ margin-left: 8px;
+  border-radius: 50%;
+}
+.mensaje-nombre{
+  margin-left: 15px;
+  padding-top: 10px;
+  font-size: 22px;
+  color: white;
+  
+}
+.mensaje-texto-cont{
+  display: flex;
+  padding-left: 60px;
+  color: white;
+
+}
+
+.mensaje-nombre-container {
+ 
+  flex: 1;
+  overflow: hidden;
+}
+.mensaje-info {
+ width: 100px;
+ display: flex;
+ justify-content: left;
+ align-items: end;
+ font-family: sans-serif;
+ font-size: 17px;
+ color: white;
+ padding-bottom: 8px;
+ padding-left: 2px;
+
+
+}
+
+@media screen and (min-width: 320px) {
+
+
+}
+
+
+@media screen and (max-width: 580px) {
+.mensaje-texto-contacto{
+  display: none;
+}
+.mensaje-texto-cont{
+  display: none;
+}
+
+
+}
+.mensaje-nombre{
+  font-size: 24px;
+  padding-top: 23px;
+  padding-left: 45px;
+}
+.mensaje-info{
+  display: none;
+
+}

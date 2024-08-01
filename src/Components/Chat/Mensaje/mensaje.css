@@ -1,0 +1,51 @@
+.mensaje-container {
+  display: flex;
+  width: 100vw;
+  flex-direction: column;
+  overflow: scroll;
+  background-image: url(../../../Imagenes/fondo.jpg);
+}
+
+.mensaje {
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+  height: 70px;
+  background-color: #4f5358;
+  border: solid 2px #1c1d1b;
+  border-radius: 10px;
+  margin: 10px 10px;
+
+}
+
+.mensaje.yo {
+  background-color: #80aa55;
+  border: solid 2px #393b36;
+  text-align: right;
+margin-left: auto;
+  width: 60%;
+  color: white;
+}
+
+.mensaje-texto {
+ color: white;
+  margin: 15px;
+  font-size: 16px;
+}
+
+.mensaje-info {
+
+  display: flex;
+  
+ padding-left: 20px;
+  font-size: 12px;
+ 
+}
+img.estado{
+ font-weight: 500;
+width: 20px;
+margin-left: 10px;
+
+}
+
+
