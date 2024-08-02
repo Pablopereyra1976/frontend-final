@@ -1,14 +1,12 @@
 import React from 'react'
-import MensajeContactos from '../MensajeContactos/MensajeContactos'
-
-
+import MensajeContactoBusqueda from "../MensajeContactos/MensajeContactoBusqueda";
 
 function ListaMensajeContacto() {
   return (
     <div>
-        <MensajeContactos/>
+      <MensajeContactoBusqueda />
     </div>
-  )
+  );
 }
 
 export default ListaMensajeContacto

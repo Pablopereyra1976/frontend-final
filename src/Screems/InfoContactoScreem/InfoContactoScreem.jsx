@@ -1,5 +1,5 @@
 import React from "react";
-import InfoContacto from "../../Components/InfoContactos/InfoContacto";
+import { InfoContacto } from "../../Components/InfoContactos/InfoContacto";
 
 function InfoContactoScreem() {
   return (
@@ -9,4 +9,4 @@ function InfoContactoScreem() {
   );
 }
 
-export default InfoContactoScreem;
+export { InfoContactoScreem };

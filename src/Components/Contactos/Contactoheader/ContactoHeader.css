@@ -28,8 +28,9 @@
   
 }
 
+
 .contact-header .iconos {
-  display: none;
+ display: flex;
   align-items: center;
   font-size: 30px;
   gap: 4px;
@@ -41,12 +42,36 @@
 }
 
 
-@media (min-width: 580px) {
+@media (max-width: 580px) {
+
   .contact-header .iconos {
-    display: flex;
+  display: none;
     align-items: center;
-   
     gap: 8px;
-    margin-right: 50px;
+
   }
+  .contact-header{
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+  }
+  .search-container{
+   
+    width: 180px;
+  height: 30px;
+  margin-left: 110px;
+  margin-top: 25px;
+  }
+  .input-search{
+    display: flex;
+    width: 120px;
+  }
+  .logo{
+    padding-top: 10px;
+    margin-right: 40px;
+  }
+}
+
+@media (max-width: 320px){
+
 }

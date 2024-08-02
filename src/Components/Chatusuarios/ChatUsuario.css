@@ -1,11 +1,12 @@
 .header {
-  width: 100%;
+  width: 99%;
   height: 120px;
   background-color: #4f5358;
   justify-content: space-between;
   border: solid 3px rgba(77, 6, 6, 0.733);
   border-radius: 35px;
   display: flex;
+  
   
 }
 .imagenperfil {
