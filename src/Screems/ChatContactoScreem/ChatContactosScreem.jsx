@@ -1,6 +1,5 @@
 import React from "react";
 import { useState } from "react";
-import { useParams } from "react-router-dom";
 import Contactos from "../../Components/contactos.json";
 import ChatUsuario from "../../Components/Chatusuarios/ChatUsuario"
 import NuevoMensajeForm from "../../Components/Chat/MensajeForm/NuevoMensajeForm";
@@ -12,9 +11,9 @@ import NuevoMensajeForm from "../../Components/Chat/MensajeForm/NuevoMensajeForm
 
 function ChatContactosScreem() {
   
-  const { id } = useParams();
-  const contacto = Contactos.find((c) => c.id === Number(id));
-const [mensajes, setMensajes] = useState(contacto ? contacto.mensajes : [])
+  const id = 1
+  const contacto = Contactos.find((c) => c.id === id);
+const [mensajes, setMensajes] = useState([]);
 
   const handleAddMensaje = (mensaje) => {
     setMensajes((prevMensajes) => [...prevMensajes, {autor: "yo", texto: mensaje, estado: "visto"}]);
