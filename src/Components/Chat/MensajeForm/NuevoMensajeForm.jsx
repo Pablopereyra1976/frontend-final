@@ -4,15 +4,18 @@ import { useNavigate } from "react-router-dom";
 import Contactos from "../../contactos.json";
 import "./NuevoMensajeForm.css";
 
+
  function NuevoMensajeForm({ contacto, onAddMensaje }) {
   const [mensaje, setMensaje] = useState("");
   
   const navigate = useNavigate();
 const contactoInfo =  contacto ?Contactos.find(c => c.id === contacto.id) : null;
 
+
 useEffect(() => {
   console.log('contacto prop: ', contacto);
 }, [contacto]);
+
 
 
   const handleInfoContacto = () => {

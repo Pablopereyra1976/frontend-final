@@ -1,6 +1,6 @@
 .header {
   width: 100%;
-  height: 120px;
+  height: 20px;
   background-color: #4f5358;
   justify-content: space-between;
   border: solid 3px rgba(77, 6, 6, 0.733);
@@ -33,7 +33,7 @@ margin-right: 1000px;
 .mensaje-container {
   display: flex;
   width: 100%;
-  height: 520px;
+  height: 620px;
   flex-direction: column;
   overflow: scroll;
   background-image: url(../../Imagenes/fondo.jpg);

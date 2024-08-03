@@ -5,6 +5,6 @@ bienvenido a mi proyecto...
     Me propuse darle la mayor funcionalidad al mismo, seguramente tengo mucho para mejorar en varios aspectos.
     Con relacion a la estructura me resulto no tan complicado, logrando crear los componentes y darle la renderizacion mediante rutas, con sus importaciones.
     Me costo bastante la utilizacion de los hook, pero con lo aprendido en el curso y buscando informacion logre llegar a su funcionalidad.
-    en el input para agregar un mensaje nuevo al chat, la funcionalidad se ejecuta y se visualiza en la consola.
+    en el input para agregar un mensaje nuevo al chat, la funcionalidad se ejecuta y se visualiza en la consola y tambien se renderiza como html en el componente. tambien agregue localStorage donde el mismo guarda los mensajes nuevos que se agregan al chat de cada usuario, como tambien utilizo localStorage.clear para limpiar el mismo.
     Como objetivo particular, por cuestiones de tiempo voy a seguir mejorando este proyecto
     Gracias por su atencion...

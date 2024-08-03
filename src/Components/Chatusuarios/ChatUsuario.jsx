@@ -2,8 +2,9 @@ import React from "react";
 import { useParams } from "react-router-dom";
 import Contactos from "../contactos.json";
 import Imagenes from "../../Imagenes";
-
 import "./ChatUsuario.css";
+
+
 
 function ChatUsuario({ mensajes: NuevosMensajes }) {
 

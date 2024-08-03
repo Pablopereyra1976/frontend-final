@@ -6,7 +6,7 @@ import ChatUsuario from "../../Components/Chatusuarios/ChatUsuario"
 import NuevoMensajeForm from "../../Components/Chat/MensajeForm/NuevoMensajeForm";
 
 
-
+localStorage.clear();
 
 function ChatContactosScreem() {
   
