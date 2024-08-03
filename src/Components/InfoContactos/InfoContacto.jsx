@@ -80,4 +80,4 @@ const timer = setTimeout(() => {
   );
 }
 
-export { InfoContacto };
+export default InfoContacto ;

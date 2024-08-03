@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import Contactos from "../../contactos.json";
@@ -8,10 +8,16 @@ import "./NuevoMensajeForm.css";
   const [mensaje, setMensaje] = useState("");
   
   const navigate = useNavigate();
+const contactoInfo =  contacto ?Contactos.find(c => c.id === contacto.id) : null;
+
+useEffect(() => {
+  console.log('contacto prop: ', contacto);
+}, [contacto]);
 
 
   const handleInfoContacto = () => {
-    if(contacto && contacto.id){
+    
+    if(contactoInfo && contacto?.id){
     navigate(`/info/${contacto.id}`);
     } else {
       console.error("el contacto no esta definido o no tiene im ID");
