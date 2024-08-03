@@ -7,10 +7,12 @@
 
   display: flex;
 border-radius: 25px;
-  height: 50px;
+border: solid 3px black;
+  height: 55px;
   background-color: #252323;
   color: white;
   padding: 5px;
+  margin-top: 10px;
 }
 .contact-footer .iconos {
   display: flex;

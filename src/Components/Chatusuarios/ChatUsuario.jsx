@@ -5,17 +5,14 @@ import Imagenes from "../../Imagenes";
 
 import "./ChatUsuario.css";
 
-function ChatUsuario({ mensaje }) {
+function ChatUsuario({ mensajes: NuevosMensajes }) {
+
   const { id } = useParams();
-
   const contacto = Contactos.find((contacto) => contacto.id === Number(id));
-
-
-
   const { visto, entregado, noEntregado } = Imagenes;
   const imagenPerfil = Imagenes[contacto.image];
 
-
+const todosLosMensajes = [...contacto.mensajes, ...NuevosMensajes];
 
   return (
     <div className="mensaje-container">
@@ -24,7 +21,7 @@ function ChatUsuario({ mensaje }) {
         <p className="nombreperfil">{contacto.nombre}</p>
 
       </div>
-      {contacto.mensajes.map((mensaje, index) => (
+      {todosLosMensajes.map((mensaje, index) => (
         <div key={index}>
           <div className={`mensaje ${mensaje.autor}`}>
             <p className="mensaje-texto">
