@@ -16,7 +16,7 @@ const [mensajes, setMensajes] = useState([]);
 
 useEffect(() => {
   console.log('ID del contacto:', id);
-  const almacenarMensajes = localStorage.getItem('mensaje_${id}');
+  const almacenarMensajes = localStorage.getItem(`mensaje_${id}`);
   if (almacenarMensajes) {
     setMensajes(JSON.parse(almacenarMensajes));
     console.log('mensajes recuperados:', JSON.parse(almacenarMensajes));
