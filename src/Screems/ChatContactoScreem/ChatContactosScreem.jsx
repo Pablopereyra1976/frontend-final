@@ -32,7 +32,7 @@ useEffect(() => {
     console.log('guardando mensajes en localstorage: ', NuevoMensajes);
 
 
-    localStorage.setItem('mensaje_${id}', JSON.stringify(NuevoMensajes));
+    localStorage.setItem(`mensaje_${id}`, JSON.stringify(NuevoMensajes));
     
   };
 
